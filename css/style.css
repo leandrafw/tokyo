@@ -1,0 +1,39 @@
+html
+
+body {
+  background-image: url(https://bit.ly/3zJECVT);
+  background-image: no-repeat;
+  background-image: 50vh;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Monoton', cursive;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  color: #a816f9;
+  text-shadow: 0px 0px 7px #8bb2ed
+}
+.title1{
+  font-family: 'Ubuntu Mono', monospace;
+  text-align: center;
+  color: white
+}
+
+
+#conteudo {
+  font-family: 'Libre Barcode 128 Text', cursive;
+}
+
+#rodape img{
+  height: 100px;
+  align-items:center;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
