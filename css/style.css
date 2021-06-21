@@ -23,9 +23,9 @@ body {
   color: white;
 
 }
-
-
 #conteudo {
+  color: white;
+  text-align: center;
   font-family: 'Libre Barcode 128 Text', cursive;
 }
 
