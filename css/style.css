@@ -1,38 +1,52 @@
-html
+html * {
+  margin: 0;
+}
 
 body {
   background-image: url(https://bit.ly/3gSC7aZ);
   background-image: no-repeat;
   background-image: 100vh;
-  height: 100px;
   background-color: rgb(255, 255, 255);
   font-family: 'Monoton', cursive;
 }
 
 .title {
+  margin-bottom: 30px;
   text-align: center;
-  margin: 0;
-  padding: 0;
   font-size: 40px;
-  color: #a816f9;
-  text-shadow: 0px 0px 7px #8bb2ed
+  color: hsl(279, 95%, 53%);
+  text-shadow: 0px 0px 10px #d4f51c
 }
 .title1{
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Chakra Petch', sans-serif;
   text-align: center;
   color: white;
-
 }
+
 #conteudo {
   color: white;
   text-align: center;
-  font-family: 'Libre Barcode 128 Text', cursive;
+  font-family: 'Chakra Petch', sans-serif;
+  height: 90vh;
 }
-
+#video{
+  margin-top: 50px;
+  display: inline-block;
+  border-radius: 10px;
+  border: 4px #ff03f2 solid;
+  margin-bottom: 25px;
+}
+#rodape{
+  margin-top: 80px;
+  height: 200px;
+  background-color:black;
+}
 #rodape img{
   height: 100px;
   align-items:center;
+  margin-right: 10px;
 }
+
 .center{
   display: flex;
   align-items: center;
